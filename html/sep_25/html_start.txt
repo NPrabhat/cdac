@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>My first page</title>
+	</head>
+	<body>
+		<b>Prabhat</b>
+		<b>Prabhat</b>
+		<b>Prabhat</b>
+
+	</body>
+
+</html>

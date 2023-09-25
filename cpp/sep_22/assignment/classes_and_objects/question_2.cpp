@@ -37,7 +37,7 @@ class Batsman{
                     break;
                 }
                 else{
-                    cout<<"Invalid CODE";
+                    cout<<"Invalid CODE"<<endl;
                 }
             }
             
