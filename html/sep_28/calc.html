@@ -1,29 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Simple Calculator</title>
-    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            position: absolute;
+            top: 20%;
+            left: 35%;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .calculator {
+            border: 1px solid black;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: rgb(52, 211, 255);
+        }
+
+        #display {
+            padding: 10px;
+            width: 90%;
+            margin-bottom: 10px;
+            font-size: 24px;
+            background-color: rgb(38, 251, 231);
+        }
+
+        .buttons button {
+            border: none;
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+            font-size: 18px;
+            margin: 5px;
+        }
+
+        #ycolor {
+            background-color: rgb(21, 115, 129);
+        }
+
+        #rcolor {
+            background-color: rgb(256, 137, 152);
+        }
+
+        .buttons button:hover {
+            background-color: green;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Calculator</h1><br>
-    <input type="text" id="display" readonly>
-    <div class="button">
-        <button type="button">1</button>
-        <button type="button">2</button>
-        <button type="button">3</button>
-        <button type="button">+</button>
-        <button type="button">4</button>
-        <button type="button">5</button>
-        <button type="button">6</button>
-        <button type="button">-</button>
-        <button type="button">7</button>
-        <button type="button">8</button>
-        <button type="button">9</button>
-        <button type="button">*</button>
-        <button type="button">/</button>
-        <button type="button">c</button>
-        <button type="button">=</button>
-        <button type="button"></button>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+
+        <div class="buttons">
+            <button type="button">1</button>
+            <button type="button">2</button>
+            <button type="button">3</button>
+            <button type="button" id="ycolor">+</button>
+            <button type="button">4</button>
+            <button type="button">5</button>
+            <button type="button">6</button>
+            <button type="button" id="ycolor">-</button>
+            <button type="button">7</button>
+            <button type="button">8</button>
+            <button type="button">9</button>
+            <button type="button" id="ycolor">*</button>
+            <button type="button" id="rcolor">C</button>
+            <button type="button">0</button>
+            <button type="button">=</button>
+            <button type="button" id="ycolor">/</button>
+        </div>
+        
     </div>
 </body>
+
 </html>

@@ -1,0 +1,50 @@
+
+
+#prabhat{
+    float: right;
+}
+
+a{
+    color: white;
+}
+
+header {
+    background-color: #9d2828;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: saddlebrown;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    color: white;
+    font-size: 18px;
+    background-color: aqua;
+}
+
+.edu-item, .exp-item {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 16px;
+    background-color: green;
+}
+
+ul {
+    background-color: orange;
+    list-style-type: square;
+    padding-left: 20px;
+}
